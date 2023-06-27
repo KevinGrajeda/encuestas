@@ -1,0 +1,71 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "id": "b93cedef-9660-4899-9f68-cf1761cf3b9c",
+  "prevId": "00000000-0000-0000-0000-000000000000",
+  "tables": {
+    "opciones": {
+      "name": "opciones",
+      "schema": "",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "serial",
+          "primaryKey": true,
+          "notNull": true
+        },
+        "texto": {
+          "name": "texto",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        },
+        "votos": {
+          "name": "votos",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": false,
+          "default": 0
+        },
+        "pregunta_id": {
+          "name": "pregunta_id",
+          "type": "uuid",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {}
+    },
+    "preguntas": {
+      "name": "preguntas",
+      "schema": "",
+      "columns": {
+        "uuid1": {
+          "name": "uuid1",
+          "type": "uuid",
+          "primaryKey": true,
+          "notNull": true,
+          "default": "gen_random_uuid()"
+        },
+        "pregunta": {
+          "name": "pregunta",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {}
+    }
+  },
+  "enums": {},
+  "schemas": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  }
+}
