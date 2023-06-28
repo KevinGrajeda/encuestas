@@ -14,7 +14,7 @@
 
 <div align="center">
   <a href="https://laencuesta.vercel.app/" align="center">
-    <img src="https://github.com/KevinGrajeda/encuestas/assets/60023139/bee7b1e3-8723-4a83-9372-057853772671" alt="Logo" height="400">
+    <img src="https://github.com/KevinGrajeda/encuestas/assets/60023139/396052e6-5a38-4001-8420-a2cfaa7cb8c1" alt="Logo" height="400">
   </a>
 </div>
 
