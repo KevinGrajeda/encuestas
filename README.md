@@ -1,22 +1,39 @@
-# next-template
+<br />
+<div align="center">
+  <h1 align="center">Encuestas</h1>
 
-A Next.js 13 template for building apps with Radix UI and Tailwind CSS.
+  <p align="center">
+    Survey web app 
+    <br />
+    <a href="https://laencuesta.vercel.app/">View Live App >></a>
+  </p>
+</div>
 
-## Usage
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-```bash
-npx create-next-app -e https://github.com/shadcn/next-template
-```
+<div align="center">
+  <a href="https://laencuesta.vercel.app/" align="center">
+    <img src="https://github.com/KevinGrajeda/encuestas/assets/60023139/bee7b1e3-8723-4a83-9372-057853772671" alt="Logo" height="400">
+  </a>
+</div>
 
-## Features
+The Survey App is a full-stack web application that allows users to create and take surveys. It provides an intuitive interface for survey creation and a seamless user experience.
 
-- Next.js 13 App Directory
-- Radix UI Primitives
-- Tailwind CSS
-- Icons from [Lucide](https://lucide.dev)
-- Dark mode with `next-themes`
-- Tailwind CSS class sorting, merging and linting.
+## Tech Stack
+The Survey App is built using the following technologies:
 
+- [Next.js](https://nextjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Neon](https://neon.tech/)
+- [Drizzle](https://orm.drizzle.team/)
+
+<!-- LICENSE -->
 ## License
 
-Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
+Distributed under the MIT License. See `LICENSE.md` for more information.
+
+
+<!-- CONTACT -->
+## Contact
+Kevin Grajeda - [@KevinGrajeda](https://github.com/KevinGrajeda) - yokevin20@gmail.com
